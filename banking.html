@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" />
+    <title>Online banking system</title>
+    <link rel="stylesheet" href="banking.css">
+    
+    
+</head>
+<body>
+
+
+  
+        <div class="navbar">
+        <a href="home.html">Home</a>
+        <a href="News.html">News</a>
+        <div class="dropdown">
+          <button class="dropbtn">Dropdown 
+            <i class="fa fa-caret-down"></i>
+          </button>
+          <div class="dropdown-content">
+            <a href="link1.html">Link 1</a>
+            <a href="link2.html">Link 2</a>
+            <a href="link3.html">Link 3</a>
+          </div>
+        </div> 
+        
+        
+  <button onclick="document.getElementById('id01').style.display='block'" style="width:auto;">Login</button>
+
+<div id="id01" class="modal">
+  
+  <form class="modal-content animate" action="/action_page.php" method="post">
+    <div class="imgcontainer">
+      <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+      <img src="img_avatar2.png" alt="Avatar" class="avatar">
+    </div>
+
+    <div class="container">
+      <label for="uname"><b>Username</b></label>
+      <input type="text" placeholder="Enter Username" name="uname" required>
+
+      <label for="psw"><b>Password</b></label>
+      <input type="password" placeholder="Enter Password" name="psw" required>
+        
+      <button type="submit">Login</button>
+      <label>
+        <input type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+    </div>
+
+    <div class="container" style="background-color:#f1f1f1">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+</div>
+
+ 
+
+
+
+        <section id="basic">
+        <a href="#"><img src="bank ease.jpg" class="logo" alt=""></a>
+        
+        <div>
+        <ul id="hello">
+            <li><a class="passive" href="index.html">Home</a></li>
+            <li><a href="shop.html">Account</a></li>
+            <li><a href="blog.html">Borrow</a></li>
+            <li><a href="about.html">about</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="contact.html">help</a></li>
+            </ul>
+        </div>
+    </section>
+
+    
+    <section id="hero">
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">cbcgahjcahj c</div>
+          
+          <section id="nine">
+            <div class="nnine">
+          <button>left</button>
+        </div>
+      </section>
+          
+          <img src="business-homepage-d.jpg" style="width:100%">
+          <div class="text">Caption Text</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 3</div>
+        
+          <img src="pl-banner-d.jpg" style="width:100%">
+          <div class="text">Caption Two</div>
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">3 / 3</div>
+          <img src="business-homepage-d.jpg" style="width:100%">
+          <div class="text">Caption Three</div>
+        </div>
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+          <span class="dot" onclick="currentSlide(3)"></span> 
+        </div>
+
+    </section>
+
+
+    <section id="product1" class="section-p1">
+        
+        <div class="pro-container">
+        <div class="pro">
+            <img src="img/home loan.jpg" alt="">
+            <div class="des">
+                <span>Loans</span>
+                <h5> Home Loan</h5>
+                <h6>Apply now for a home loan and get Rs.10000 discount at my online store</h6>
+               
+               <button>Apply Now
+                
+               </button>
+            </div>
+            <!-- <a href="#"><i class="fa fa-shopping-cart cart"></i></a> -->
+        </div>
+    
+        <div class="pro">
+            <img src="img/loan.jpg" alt="">
+            <div class="des">
+                <span>Loans</span>
+                <h5> Working Capital Solution</h5>
+                <h6>Avail our array of products offered under found and non-found based working capitals solution to grow your bussiness</h6>
+               
+               <button>Apply Now
+                <a href="#"><i class="fa fa-arrow-circle-right"></i></a>
+               </button>
+            </div>
+            <!-- <a href="#"><i class="fa fa-shopping-cart cart"></i></a> -->
+        </div>
+    
+        <div class="pro">
+            <img src="img/moblle banking.png" alt="">
+            <div class="des">
+                <span>Ways to Bank</span>
+                <h5>Mobile Bnaking</h5>
+                <h6>Now, You Can experience the benefits of online baning and anytime,without the need for a computer.</h6>
+               
+               <button>Apply Now
+                <a href="#"><i class="fa fa-arrow-circle-right"></i></a>
+               </button>
+            </div>
+            <!-- <a href="#"><i class="fa fa-shopping-cart cart"></i></a> -->
+        </div>
+    
+        <div class="pro">
+            <img src="img/net bnanking.jpg" alt="">
+            <div class="des">
+                <span>Ways to Bank</span>
+                <h5>Net Banking</h5>
+                <h6>Net Banking is a convenient way to bank from the comfort of your home or office.</h6>
+               
+               <button>Apply Now
+                <a href="#"><i class="fa fa-arrow-circle-right"></i></a>
+               </button>
+            </div>
+            <!-- <a href="#"><i class="fa fa-shopping-cart cart"></i></a> -->
+        </div>
+    
+
+    
+       
+    
+    </div>
+       </section>
+
+
+       <footer class="section-p1">
+        <div class="col">
+          <img class="logo" src="mmmmm.jpg" alt="">
+          <h4>contact</h4>
+          <p><strong>Address:</strong> sikri jakaun jhansi up</p>
+          <p><strong>hours:</strong>timing of hours</p>
+         <div class="follow">
+            <h4>follow us</h4>
+            
+            <div class="icon">
+                <a href=""> <i class="fab fa-facebook-f"></i></a>
+               <a href=""> <i class="fab fa-twitter"></i></a>
+           <a href="https://www.instagram.com/dwivedianshum/"><i class="fab fa-instagram"></i></a>
+               <a href=""><i class="fab fa-linkedin"></i></a>
+            </div>
+         </div>
+        </div>
+    
+    </footer>
+
+<section id="hiiii">
+    <div class="container">
+        <form action="/action_page.php">
+          <div class="row">
+            <h2 style="text-align:center">Login with Social Media or Manually</h2>
+            <div class="vl">
+              <span class="vl-innertext">or</span>
+            </div>
+      
+            <div class="col">
+              <a href="#" class="fb btn">
+                <i class="fa fa-facebook fa-fw"></i> Login with Facebook
+               </a>
+              <a href="#" class="twitter btn">
+                <i class="fa fa-twitter fa-fw"></i> Login with Twitter
+              </a>
+              <a href="#" class="google btn"><i class="fa fa-google fa-fw">
+                </i> Login with Google+
+              </a>
+            </div>
+      
+            <div class="col">
+              <div class="hide-md-lg">
+                <p>Or sign in manually:</p>
+              </div>
+      
+              <input type="text" name="username" placeholder="Username" required>
+              <input type="password" name="password" placeholder="Password" required>
+              <input type="submit" value="Login">
+            </div>
+            
+          </div>
+        </form>
+      </div>
+      
+      <div class="bottom-container">
+        <div class="row">
+          <div class="col">
+            <a href="#" style="color:white" class="btn">Sign up</a>
+          </div>
+          <div class="col">
+            <a href="#" style="color:white" class="btn">Forgot password?</a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
+    
+
+       <script src="banking.js"></script>
+</body>
+</html>
